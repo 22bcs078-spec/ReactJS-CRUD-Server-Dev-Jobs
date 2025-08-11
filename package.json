@@ -1,11 +1,11 @@
 {
-  "name": "mock-api",
+  "name": "jobs-api",
   "version": "1.0.0",
-  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "json-server --watch jobs.json --port $PORT"
+    "start": "node index.js"
   },
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "express": "^4.18.2"
   }
 }
